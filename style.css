@@ -837,17 +837,20 @@ html {
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 991.98px) {
-    #about-section {
-        margin-top: 15%;
-    }
-}
-
-/* Small devices (mobiles, less than 768px) */
-@media (max-width: 767.98px) {
-    #about-section {
-        margin-top: -90%;
-    }
-}
+	#about-section {
+	  /* margin-top: 10%; */
+	  margin-top: -30%;
+	}
+  }
+  
+  /* Small devices (mobiles, less than 768px) */
+  @media (max-width: 767.98px) {
+	#about-section {
+	  /* margin-top: 20px;  */
+	  margin-top: -50%;
+	  padding: 20px 15px; /* Add padding for readability */
+	}
+  }
 
 /*=============================
 	Start Feautes CSS
@@ -4197,3 +4200,32 @@ html {
  /* ul.bullets{
 	list-style-type: circle;
   } */
+
+
+
+
+  /* newly css added by Yash for making header responsive */
+  @media only screen and (max-width: 768px) {
+	.header .header-inner {
+	  padding: 10px 0; /* reduce vertical spacing */
+	}
+  
+	.logo img {
+	  max-width: 120px; /* scale down the logo */
+	  height: auto;
+	}
+  
+	.main-menu .nav.menu > li > a {
+	  font-size: 14px; /* reduce menu font size */
+	  padding: 8px 10px;
+	}
+  
+	.mobile-nav {
+	  margin-top: 10px;
+	}
+  
+	.container {
+	  padding: 0 10px; /* reduce container padding */
+	}
+  }
+  
